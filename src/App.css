@@ -1,0 +1,564 @@
+.left-menu-container {
+  height: 100vh;
+  width: 300px;
+  background-color: #F3F3F8;
+  position: fixed !important;
+}
+
+.user-avatar {
+  height: 60px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.user-avatar .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.user-avatar .avatar img {
+  height: 50px;
+  width: 50px;
+}
+
+.user-avatar .information label:first-child {
+  font-weight: bold;
+  font-size: 15px;
+  color: #424C59;
+}
+
+.user-avatar .information label:last-child {
+  font-size: 12px;
+  color: #A3A8B2;
+}
+
+.user-avatar .settings {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background-color: #DDDDED;
+}
+
+.label-component {
+  margin-bottom: 30px;
+  color: #8B98A0;
+  font-size: 14px;
+}
+
+.menu-item {
+  height: 45px;
+  width: 100%;
+  gap: 20px;
+  margin-bottom: 20px;
+  user-select: none;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #EAEAF2;
+}
+
+.menu-item:hover {
+  background-color: rgba(105, 105, 223, 0.3);
+  border-radius: 10px;
+}
+
+.menu-item:active {
+  background-color: rgba(105, 105, 223, 0.5);
+  border-radius: 10px;
+}
+
+.menu-item .icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.menu-item .text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #49525F;
+}
+
+.menu-item .icon img {
+  height: 16px;
+  width: 16px;
+}
+
+.page-container .wrapper {
+  width: 100%;
+  background-color: white !important;
+  padding-left: 350px !important;
+  padding-right: 350px !important;
+  height: 100vh;
+}
+
+.balance {
+  height: 120px;
+  width: 400px;
+  flex-direction: column;
+}
+
+.balance label:first-child {
+  font-size: 16px;
+  color: #A0ABB0;
+}
+
+.balance label:last-child {
+  font-weight: 500;
+  font-size: 32px;
+  color: #303066;
+}
+
+.spending-activity {
+  height: 200px;
+  width: 100%;
+}
+
+.spending-activity .title {
+  font-size: 18px;
+  color: #082431;
+  font-weight: 500;
+}
+
+.spending-activity .date {
+  color: #929FA4;
+}
+
+.spending-activity .date img {
+  color: #929FA4;
+  flex-shrink: 0;
+  top: -2px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.latest-transaction img {
+  border-radius: 9999px;
+}
+
+.latest-transaction div .icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: #F3F3F8;
+}
+
+.latest-transaction .text {
+  padding: 15px;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+}
+
+.latest-transaction .text2 {
+  color: #959CA4;
+}
+
+.latest-transaction .text4 {
+  font-size: 18px;
+}
+
+.title-container {
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+  position: fixed;
+}
+
+.title-container .title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.money-transfer-container {
+  padding-top: 80px;
+}
+
+.money-transfer-container .form {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.money-transfer-container .options {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  color: #49525F;
+  font-size: 14px;
+}
+
+.money-transfer-container .options .option {
+  height: 40px;
+  width: 150px;
+  border: 2px solid #ced4da;
+  border-radius: 9999px;
+  color: #424C59 !important;
+}
+
+.money-transfer-container .options .option:hover {
+  background-color: #6969DF;
+  cursor: pointer;
+  border: 2px solid #6969DF;
+  color: white;
+}
+
+.money-transfer-container .form .container-wrapper {
+  height: calc(100% - 24px);
+  width: 100%;
+}
+
+.money-transfer-container .last-transaction {
+  height: 100vh;
+  width: 320px;
+  background-color: #F3F3F8;
+  margin-left: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 15px;
+}
+
+.my-accounts {
+  height: 120px;
+  border-radius: 12px;
+  background-color: white;
+  border: 2px solid #CED4DA;
+  color: #49525F;
+  margin-bottom: 16px;
+  padding: 15px;
+}
+
+.my-accounts .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #B548C6;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.my-accounts .account {
+  font-size: 13px;
+}
+
+.my-accounts .account label:first-child {
+  font-weight: bold;
+  color: #424C59;
+  font-size: 16px;
+}
+
+.my-accounts:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid #6969DF;
+}
+
+.my-accounts:active {
+  box-shadow: none;
+}
+
+.my-accounts:focus {
+  box-shadow: none;
+  border: 2px solid #6969DF;
+}
+
+.sending-account label {
+  font-size: 13px;
+  font-weight: normal;
+  color: #49525F;
+  margin-bottom: 8px;
+}
+
+.my-card {
+  width: 100%;
+  border: 2px solid #49525F;
+  border-radius: 12px;
+  height: 85px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.my-card img {
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+}
+
+.choosing-an-account-item {
+  height: 100px;
+  width: 100%;
+  border-radius: 14px;
+  border: 2px solid #CED4DA;
+  padding: 15px;
+  cursor: pointer !important;
+}
+
+.choosing-an-account-item .icon {
+  height: 50px;
+  width: 50px;
+  background-color: #B548C6;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.choosing-an-account-item .information label {
+  cursor: pointer;
+}
+
+.choosing-an-account-item:hover {
+  border: 2px solid #6969DF;
+}
+
+.choosing-an-account-item .information label:first-child {
+  color: #424C59;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.choosing-an-account-item .information:nth-child(2),
+:nth-child(3) {
+  color: #959CA4;
+  font-size: 14px;
+}
+
+.last-transaction .title {
+  width: 100%;
+  padding: 20px;
+}
+
+.last-transaction .title label {
+  color: #49525F;
+  font-weight: bold;
+}
+
+.choosing {
+  height: 80px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.choosing label {
+  margin-bottom: 8px;
+  color: #49525F;
+}
+
+.choosing .form-select {
+  box-shadow: none !important;
+  cursor: pointer;
+  border: 2px solid #CED4DA;
+}
+
+.transaction-information {
+  height: 90px;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #ced4da;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.transaction-information .date {
+  width: 60px;
+  padding: 5px;
+}
+
+.transaction-information .date label:last-child {
+  transform: rotate(270deg);
+  left: -15px;
+  position: relative;
+}
+
+.transaction-information .date label:first-child {
+  color: #6969DF;
+  font-size: 22px;
+}
+
+.transaction-information .content .info {
+  width: 100% !important;
+}
+
+.transaction-information .info label:first-child {
+  color: #49525F;
+  font-weight: bold;
+}
+
+.transaction-information .info label:nth-child(2),
+label:nth-child(3) {
+  color: #49525F;
+  font-size: 12px;
+}
+
+.transaction-information .amount label:first-child {
+  color: #49525F;
+}
+
+.transaction-information .amount label:last-child {
+  color: #6969DF;
+  font-size: 17px;
+}
+
+.my-accounts-container {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.search-button {
+  margin-bottom: 10px;
+}
+
+.my-account-item {
+  width: 100%;
+}
+
+.my-account-item button {
+  border: none !important;
+  background-color: white !important;
+}
+
+.my-account-item .my-account-items {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid #CED4DA;
+  padding: 10px;
+  color: #49525F;
+}
+
+.my-account-item .my-account-items:hover {
+  border: 2px solid #6969DF;
+}
+
+.my-account-item .part label:nth-child(2),
+:nth-child(3),
+:nth-child(4) {
+  color: #424C59;
+  font-size: 15px;
+}
+
+.my-account-item .part label:first-child {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.my-account {
+  padding: 5px;
+}
+
+.input-group {
+  margin-top: 70px;
+}
+
+.my-account .right-card-container {
+  width: 300px;
+  height: 100%;
+  background-color: #F3F3F8;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 15px;
+}
+
+.total-balance-item {
+  width: 100%;
+  height: 120px;
+  border-radius: 13px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.total-balance-item .card-eleman {
+  margin-right: 20px;
+}
+
+.total-balance-item .total-balance {
+  color: white;
+}
+
+.total-balance-item .total-balance label:first-child {
+  font-weight: bold;
+}
+
+.total-balance-item .total-balance label:last-child {
+  color: white;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login .login-item {
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  border-radius: 13px;
+  padding: 15px 15px 15px 15px;
+}
+
+.login .login-item form {
+  width: 450px;
+}
+
+.login .login-item .btn {
+  background-color: #464694;
+}
+
+.account-activities {
+  padding-top: 80px;
+}
+
+.account-activities-item {
+  width: 100%;
+}
+
+.account-activities-item .items {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid #CED4DA;
+  padding: 10px;
+  color: #49525F;
+}
+
+.account-activities-item .items:hover {
+  border: 2px solid #6969DF;
+}
+
+.account-activities-item .items .explanation {
+  width: 500px;
+  height: 100px;
+  color: #49525F;
+  margin-right: 20px;
+}
+
+.account-activities-item .items .explanation label:nth-child(2) {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.account-activities-item .items .balance {
+  width: 200px;
+  height: 100px;
+  color: #49525F;
+}
+
+.account-activities-item .items .sum label:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #49525F;
+}
+
+.account-activities-item .items .sum label:nth-child(1),
+label:nth-child(2),
+:nth-child(3) {
+  font-size: px;
+  color: #49525F;
+}
